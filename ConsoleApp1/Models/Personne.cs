@@ -1,19 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ConsoleApp1
+namespace GestionEcole.Models
 {
-
     public abstract class Personne
     {
         public int Id { get; set; }
         public string Nom { get; set; } = "";
         public string Prenom { get; set; } = "";
         public string Email { get; set; } = "";
-
         public abstract string GetRole();
 
-        public string GetNomComplet() => $"{Prenom} {Nom}";
+        public string GetNomComplet() => $"{Nom} {Prenom}";
     }
 }
