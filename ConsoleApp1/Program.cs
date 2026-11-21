@@ -17,7 +17,7 @@ namespace GestionEcole
             }
 
             // Temporaire : on ouvre directement l'écran en cours de test
-            Application.Run(new FormClasses());
+            Application.Run(new FormNotes());
         }
     }
 }
