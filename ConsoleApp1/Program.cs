@@ -16,8 +16,8 @@ namespace GestionEcole
                 DbInitializer.Initialiser(db);
             }
 
-            // Temporaire : on ouvre directement l'écran en cours de test
-            Application.Run(new FormNotes());
+            // Ouvrir l'écran d'accueil
+            Application.Run(new FormPrincipal());
         }
     }
 }
